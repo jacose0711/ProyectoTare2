@@ -1,0 +1,156 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: blue;
+    color: white
+}
+#encabezado h1 {
+    display: inline
+}
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#menu a {
+    background-color: red;
+    color: white;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: red;
+}
+
+#barralateral {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 84%;
+    width: 20%;
+    background-color: paleturquoise;
+}
+
+#barralateral1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 84%;
+    width: 20%;
+    background-color: paleturquoise;
+}
+#contenido{
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 84%;
+    width: 80%;
+    background-color: powderblue;
+    overflow: auto;
+}
+#piepagina{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#contenido article:nth-child(even){
+    background-color: darkgrey;
+    
+}
+
+#encabezadoTabla{
+    background-color: blue;
+    color: white;
+}
+
+#detalleTabla tr:nth-child(odd){
+    background-color: coral;
+    color: blue;
+}
+
+#detalleTabla tr:nth-child(even){
+    background-color: green;
+    color: black;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: black;
+    heigth: 80px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 18px;
+    line-height: 80px;
+    
+    
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.nav-menu-link:hover{
+    background-color: #024070;
+    transition: 1s;
+    
+}
